@@ -1,0 +1,99 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django migrations
+*.log
+
+# Database files
+*.sqlite3
+*.db
+
+# Media and static files (optional, if managed outside git)
+media/
+static/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+Pipfile.lock
+pip-log.txt
+
+# Settings or environment files (if not for production)
+.env
+.env.*
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# PyCharm project files
+.idea/
+
+# VSCode project files
+.vscode/
+
+# Docker-related
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+
+# Node.js (for front-end tools like npm/yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# pytest
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Celery task queue
+celerybeat-schedule
+
+# Distribution/Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+*.manifest
+.installed.cfg
+lib/
+lib64/
+__pypackages__/
+
+# Logs and crash reports
+*.log
+*.pot
+*.mo
+*.pot~
+*.swp
+*.swo
+*.bak

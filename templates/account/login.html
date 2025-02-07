@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Finance App | Login {% endblock title %}
+
+{% block body %}
+<main>
+    <div class="bg-base-300 p-4 max-w-fit mx-auto text-center rounded-xl shadow-xl my-8">
+        <h2 class="text-5xl mb-4">Sign Up</h2>
+        <form action="" method="POST" class="flex flex-col gap-2 items-center">
+            {% csrf_token %}
+            {{form}}
+            <button type="submit" class="btn btn-primary">Sign Up</button>
+        </form>
+    </div>
+</main>
+{% endblock body %}

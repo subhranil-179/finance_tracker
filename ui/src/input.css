@@ -1,0 +1,21 @@
+@import 'tailwindcss';
+@plugin 'daisyui';
+@plugin "@tailwindcss/typography";
+@source "../../templates/";
+@source "../../static/js/";
+
+@plugin 'daisyui' {
+    themes: light --default, light --prefersdark;
+}
+
+@layer base {
+    input {
+        @apply bg-white! rounded shadow-xl;
+    }
+    h1 {
+        @apply text-green-600;
+    }
+    h2 {
+        @apply text-green-600;
+    }
+}
